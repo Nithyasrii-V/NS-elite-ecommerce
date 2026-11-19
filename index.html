@@ -1,0 +1,285 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS ÉLITE- Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">NS <span>ÉLITE</span></a>
+
+        <form class="search">
+            <input type="search" placeholder="Search products...">
+            <button type="submit">⌕</button>
+        </form>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#" class="cart" id="cartBtn">
+    🛒 Cart (<span id="cartCount">0</span>)
+</a>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">NEW COLLECTION 2026</p>
+            <h1>Find Your<br>Perfect Style</h1>
+            <p>Discover amazing products at prices you'll love.
+               Shop fashion, electronics and more.</p>
+            <a href="#products" class="btn">Shop Now →</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=80"
+                 alt="Fashion shopping store">
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div>🚚 <h3>Free Shipping</h3><p>On orders over ₹999</p></div>
+        <div>🔒 <h3>Secure Payment</h3><p>Safe transactions</p></div>
+        <div>↩️ <h3>Easy Returns</h3><p>Hassle-free returns</p></div>
+        <div>🎧 <h3>24/7 Support</h3><p>We're here to help</p></div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section" id="categories">
+        <div class="section-title">
+            <p class="subtitle">EXPLORE OUR STORE</p>
+            <h2>Shop by Category</h2>
+        </div>
+
+        <div class="category-grid">
+            <a href="#products" class="category">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80" alt="Fashion">
+                <h3>Fashion</h3>
+            </a>
+
+            <a href="#products" class="category">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Headphones">
+                <h3>Electronics</h3>
+            </a>
+
+            <a href="#products" class="category">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80" alt="Shoes">
+                <h3>Footwear</h3>
+            </a>
+
+            <a href="#products" class="category">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Watch">
+                <h3>Accessories</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section products-section" id="products">
+        <div class="section-title">
+            <p class="subtitle">OUR BEST PICKS</p>
+            <h2>Featured Products</h2>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="badge">SALE</span>
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80" alt="Sports shoes">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Footwear</p>
+                    <h3>Sports Sneakers</h3>
+                    <p class="rating">★★★★★ <span>(4.8)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹1,499 <del>₹1,999</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="badge new">NEW</span>
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Headphones">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Electronics</p>
+                    <h3>Wireless Headphones</h3>
+                    <p class="rating">★★★★★ <span>(4.6)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹2,299 <del>₹2,999</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Wristwatch">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Accessories</p>
+                    <h3>Classic Wristwatch</h3>
+                    <p class="rating">★★★★★ <span>(4.7)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹1,899 <del>₹2,499</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="badge">SALE</span>
+                    <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80" alt="Handbag">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Fashion</p>
+                    <h3>Stylish Handbag</h3>
+                    <p class="rating">★★★★★ <span>(4.5)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹1,299 <del>₹1,799</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80" alt="Cotton T-shirt">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Fashion</p>
+                    <h3>Cotton T-Shirt</h3>
+                    <p class="rating">★★★★★ <span>(4.4)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹599 <del>₹899</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="Camera">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Electronics</p>
+                    <h3>Classic Camera</h3>
+                    <p class="rating">★★★★★ <span>(4.7)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹4,999 <del>₹5,999</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80" alt="Fashion outfit">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Fashion</p>
+                    <h3>Casual Outfit</h3>
+                    <p class="rating">★★★★★ <span>(4.5)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹1,799 <del>₹2,199</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80" alt="Modern chair">
+                </div>
+                <div class="product-info">
+                    <p class="category-name">Home & Living</p>
+                    <h3>Modern Chair</h3>
+                    <p class="rating">★★★★★ <span>(4.6)</span></p>
+                    <div class="price-row">
+                        <p class="price">₹3,499 <del>₹4,299</del></p>
+                        <button class="add-btn" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Offer Banner -->
+    <section class="offer">
+        <div>
+            <p class="subtitle">SPECIAL COLLECTION</p>
+            <h2>Upgrade Your Everyday Style</h2>
+            <p>Find something special for every moment.</p>
+            <a href="#products" class="btn">Explore Now →</a>
+        </div>
+        <div class="offer-symbol">✦</div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <p class="subtitle">STAY UPDATED</p>
+        <h2>Join Our Newsletter</h2>
+        <p>Get updates about new products and special offers.</p>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-grid">
+            <div>
+                <a href="#home" class="logo">NS <span>ÉLITE</span></a>
+                <p>Your favourite destination for shopping fashion,
+                   electronics and lifestyle products.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#products">Products</a>
+            </div>
+
+            <div>
+                <h3>Customer Service</h3>
+                <a href="#contact">Help Center</a>
+                <a href="#contact">Shipping Policy</a>
+                <a href="#contact">Returns</a>
+            </div>
+
+            <div>
+                <h3>Contact Us</h3>
+                <p>Email: support@NSÉLITE</p>
+                <p>Monday - Saturday</p>
+                <p>9 AM - 6 PM</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 NS ÉLITE. All rights reserved.</p>
+            <p>Nithyasri project</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
